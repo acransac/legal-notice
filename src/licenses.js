@@ -1,3 +1,6 @@
+// Copyright (c) Adrien Cransac
+// License: MIT
+
 import {init} from 'license-checker';
 
 async function licenses(moduleName, moduleVersion, modulePath) {

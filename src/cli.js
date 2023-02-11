@@ -20,5 +20,12 @@ try {
   console.log(await licenses(name, version, "."));
 }
 catch (error) {
-  console.error(error);
+  if (error.code === "ENOENT") {
+    console.error(
+      "Error: no package.json found.\n\n"
+        + "Run the command in a module directory where package.json is.");
+  }
+  else {
+    console.error(`Error: ${error.message}`);
+  }
 }
