@@ -1,0 +1,40 @@
+{
+  "name": "@acransac/legal-notice",
+  "version": "1.0.0",
+  "description": "List the copyright holders and licenses of a module and its dependencies",
+  "bin": {
+    "legal-notice": "src/cli.js"
+  },
+  "type": "module",
+  "files": [
+    "MIT-LICENSE.txt",
+    "src"
+  ],
+  "scripts": {
+    "test": "jest test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acransac/legal-notice.git"
+  },
+  "keywords": [
+    "compliance",
+    "copyright",
+    "legal",
+    "license",
+    "notice"
+  ],
+  "author": "Adrien Cransac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acransac/legal-notice/issues"
+  },
+  "homepage": "https://github.com/acransac/legal-notice#readme",
+  "dependencies": {
+    "license-checker": "^25.0.1",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "jest": "^29.4.2"
+  }
+}
