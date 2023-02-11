@@ -1,0 +1,11 @@
+{
+  "name": "test_module",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Adrien Cransac",
+  "license": "MIT",
+  "dependencies": {
+    "test_dependency_1": "file:../test_dependency_1",
+    "test_dependency_2": "file:../test_dependency_2"
+  }
+}
