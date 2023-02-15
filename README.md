@@ -67,7 +67,7 @@ And run it with:
     $ npm run legal
 ```
 
-Update the NOTICE after installing or uninstalling any dependency in your module.
+Update the NOTICE after installing, updating or uninstalling any dependency in your module.
 
 Note that you can get help about the tool with:
 
